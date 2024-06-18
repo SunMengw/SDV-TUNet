@@ -1,7 +1,40 @@
-#Sparse Dynamic Volume TransUNet with multi-level edge fusion for brain tumor segmentation
+Sparse Dynamic Volume TransUNet with multi-level edge fusion for brain tumor segmentation
+=
 
-3D MRI Brain Tumor Segmentation is of great significance in clinical diagnosis and treatment. Accurate segmentation results are critical for localization and spatial distribution of brain tumors using 3D MRI. However, most existing methods mainly focus on extracting global semantic features from the spatial and depth dimensions of a 3D volume, while ignoring voxel information, inter-layer connections, and detailed
-features. 
+
+Highlights
+-
+•Propose a novel encoder-decoder-based 3D brain tumor segmentation network.  
+
+•Combine voxel information, inter-layer feature connection and intra-axis information.  
+
+•Dynamically extract 3D spatial features and capture fine-grained edge details.  
+
+•Introduce a local-to-global feature modeling strategy for accurate segmentation.  
 
 Datasets
+-
+The dataset used in this paper is BraTS2019 and 2020. The datasets can be found in kaggle, using the training set part.
 
+Requirement
+-
+This article is implemented by Pytorch.  
+1. PyTorch 1.9.0  
+2. Some other libraries
+
+Cite
+-
+@article{zhu2024sparse,
+  title={Sparse Dynamic Volume TransUNet with multi-level edge fusion for brain tumor segmentation},  
+  
+  author={Zhu, Zhiqin and Sun, Mengwei and Qi, Guanqiu and Li, Yuanyuan and Gao, Xinbo and Liu, Yu},  
+  
+  journal={Computers in Biology and Medicine},  
+  
+  pages={108284},  
+  
+  year={2024},  
+  
+  publisher={Elsevier}  
+  
+}
